@@ -1,0 +1,140 @@
+{
+    "error": false,
+    "domain": "alloy.ee",
+    "tomlfile": "https://alloy.ee/.well-known/xrp-ledger.toml",
+    "server_headers": {
+        "Date": "Thu, 03 Dec 2020 16:33:10 GMT",
+        "Server": "Apache",
+        "Last-Modified": "Wed, 18 Sep 2019 11:03:58 GMT",
+        "ETag": "\"308-592d1cb3878eb\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "776",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, OPTIONS",
+        "Cache-Control": "s-maxage=10",
+        "Keep-Alive": "timeout=5, max=100",
+        "Connection": "Keep-Alive",
+        "Content-Type": "application/toml"
+    },
+    "header_suggestions": "No Warnings",
+    "CORS": true,
+    "toml": {
+        "METADATA": {
+            "modified": "2019-09-18 11:03:00+00:00"
+        },
+        "VALIDATORS": [
+            {
+                "public_key": "nHUFE9prPXPrHcG3SkwP1UzAQbSphqyQkQK9ATXLZsfkezhhda3p",
+                "network": "main",
+                "owner_country": "EE",
+                "unl": "https://vl.ripple.com"
+            }
+        ],
+        "ACCOUNTS": [
+            {
+                "address": "rKLDcskSc7EaHDkBohxioXcASzDmWcQZNc",
+                "network": "main"
+            }
+        ],
+        "PRINCIPALS": [
+            {
+                "name": "Alloy Networks",
+                "email": "info@alloy.ee",
+                "twitter": "@alloynetworks"
+            }
+        ],
+        "SERVERS": [
+            {
+                "peer": "zaphod.alloy.ee",
+                "network": "main",
+                "port": 51235,
+                "desc": "Bootstrap hub pool"
+            },
+            {
+                "ws": "wss://arthur.alloy.ee",
+                "network": "main",
+                "port": 443,
+                "desc": "Public websocket server"
+            },
+            {
+                "ws": "wss://marvin.alloy.ee",
+                "network": "main",
+                "port": 443,
+                "desc": "Public websocket Server"
+            },
+            {
+                "ws": "wss://trillian.alloy.ee",
+                "network": "main",
+                "port": 443,
+                "desc": "Public websocket server"
+            }
+        ]
+    },
+    "xrp_toml_errors": false,
+    "TLSInfo": {
+        "subject": [
+            [
+                [
+                    "commonName",
+                    "alloy.ee"
+                ]
+            ]
+        ],
+        "issuer": [
+            [
+                [
+                    "countryName",
+                    "US"
+                ]
+            ],
+            [
+                [
+                    "organizationName",
+                    "Let's Encrypt"
+                ]
+            ],
+            [
+                [
+                    "commonName",
+                    "Let's Encrypt Authority X3"
+                ]
+            ]
+        ],
+        "version": 3,
+        "serialNumber": "0327DA417B49355D9C3896D3BB5C3BBA819E",
+        "notBefore": "Oct 21 23:00:52 2020 GMT",
+        "notAfter": "Jan 19 23:00:52 2021 GMT",
+        "subjectAltName": [
+            [
+                "DNS",
+                "alloy.ee"
+            ],
+            [
+                "DNS",
+                "www.alloy.ee"
+            ]
+        ],
+        "OCSP": [
+            "http://ocsp.int-x3.letsencrypt.org"
+        ],
+        "caIssuers": [
+            "http://cert.int-x3.letsencrypt.org/"
+        ]
+    },
+    "xrpl_DNS_entry": {
+        "name": "_xrpl.alloy.ee",
+        "value": [
+            "nHUFE9prPXPrHcG3SkwP1UzAQbSphqyQkQK9ATXLZsfkezhhda3p"
+        ],
+        "in_toml": [
+            "nHUFE9prPXPrHcG3SkwP1UzAQbSphqyQkQK9ATXLZsfkezhhda3p"
+        ]
+    },
+    "xrpl_address_domain": [
+        {
+            "domain": "alloy.ee",
+            "address": "rKLDcskSc7EaHDkBohxioXcASzDmWcQZNc",
+            "index": "84ED79C2B9727D59E3928BBA42172F0A4AD105776899DC4BCF90A6ADBC3C5E4C"
+        }
+    ]
+}
